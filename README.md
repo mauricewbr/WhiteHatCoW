@@ -1,0 +1,3 @@
+## WhiteHatCoW - CoW Hooks to secure CoW Hooks
+
+This repository aims to secure user funds and improve user experience in relation to Cow Protocol's trade hooks infrastructure. There are two scenarios in which WhiteHatCoW improves security and UX for users that interact with CoW Protocol's swap intents. Firstly, WhiteHatCoW secures users that unintentionally give spending allowances to the trampoline contract with remaining unspent amounts that could then be used to drain user funds from their addresses through the trampoline.The second scenario is the user leaving funds inside the trampoline contract which are then sitting idle in the trampoline address and could be drained by any other user which is prevented by WhiteHatCoW.
