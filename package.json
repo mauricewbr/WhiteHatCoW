@@ -1,0 +1,21 @@
+{
+  "name": "cow-heist",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typechain:generate": "typechain --target ethers-v5 --out-dir ./typechain './usdt.json'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cowprotocol/app-data": "^1.2.0",
+    "@cowprotocol/cow-sdk": "^4.0.3",
+    "@ethersproject/providers": "^5.7.2",
+    "@typechain/ethers-v5": "^11.1.2",
+    "ethers": "^5.7.2",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.3.2",
+    "typescript": "^5.2.2"
+  }
+}

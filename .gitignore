@@ -1,0 +1,16 @@
+# Compiler files
+cache/
+out/
+
+node_modules
+typechain
+
+# Dotenv file
+.env
+
+# Coverage
+coverage/
+lcov.info
+
+yarn.lock
+package-lock.json
